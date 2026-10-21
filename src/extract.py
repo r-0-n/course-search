@@ -26,7 +26,7 @@ READERS = {".pdf": read_pdf, ".docx": read_docx, ".pptx": read_pptx}
 
 def extract_folder(folder="data/raw"):
     records = []
-    for path in sorted(Path(folder.rglob)("*")):
+    for path in sorted(Path(folder).rglob("*")):
         reader = READERS.get(path.suffix.lower())
         if reader:
             for location, text in reader(path):

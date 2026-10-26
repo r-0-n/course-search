@@ -97,7 +97,7 @@ if searcher is None:
 col1, col2 = st.columns([5,1])
 query = col1.text_input("Your questions",
                         placeholder="e.g. how do I stop the same being stored twice?")
-k = col2.number_input("Results", min_vale=1, max_value=15, value=5)
+k = col2.number_input("Results", min_value=1, max_value=15, value=5)
 
 if query.strip():
     with st.spinner("Searching..."):

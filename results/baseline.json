@@ -1,33 +1,33 @@
 {
   "BM25 (keyword)": {
     "overall": {
-      "n": 15,
+      "n": 50,
       "MRR": 0.531,
-      "Recall@1": 0.4,
-      "Recall@3": 0.667,
-      "Recall@5": 0.667
+      "Recall@1": 0.38,
+      "Recall@3": 0.68,
+      "Recall@5": 0.68
     },
     "by_type": {
       "definition": {
-        "n": 7,
-        "MRR": 0.446,
-        "Recall@1": 0.286,
-        "Recall@3": 0.571,
-        "Recall@5": 0.571
+        "n": 22,
+        "MRR": 0.488,
+        "Recall@1": 0.318,
+        "Recall@3": 0.636,
+        "Recall@5": 0.636
       },
       "keywords": {
-        "n": 7,
-        "MRR": 0.69,
-        "Recall@1": 0.571,
+        "n": 21,
+        "MRR": 0.675,
+        "Recall@1": 0.524,
         "Recall@3": 0.857,
         "Recall@5": 0.857
       },
       "paraphrase": {
-        "n": 1,
-        "MRR": 0.0,
-        "Recall@1": 0.0,
-        "Recall@3": 0.0,
-        "Recall@5": 0.0
+        "n": 7,
+        "MRR": 0.238,
+        "Recall@1": 0.143,
+        "Recall@3": 0.286,
+        "Recall@5": 0.286
       }
     },
     "failures": [
@@ -45,7 +45,7 @@
         "type": "definition",
         "expected": "ENT300_CHAPTER 1.pdf ['page 4']",
         "rank": null,
-        "top_result": "Chapter 4 Intrusion Detection System IDS (2).pdf (page 2)"
+        "top_result": "Chapter1_Introduction to System Analysis and Design (FINALIZED).pptx (slide 3)"
       },
       {
         "id": 3,
@@ -56,62 +56,190 @@
         "top_result": "4.0 Chap 4 - Intro to Client-Side Scripting.pdf (page 12)"
       },
       {
-        "id": 5,
-        "question": "What are three motivation theories discussed in entrepreneurial motivation?",
-        "type": "keywords",
-        "expected": "ENT300_CHAPTER 2.pdf ['page 12']",
-        "rank": null,
-        "top_result": "ENT300_CHAPTER 2.docx (full document)"
-      },
-      {
         "id": 11,
         "question": "How do I clear my table in database?",
         "type": "paraphrase",
         "expected": "Lecture 9 - Intro to Database.pptx ['slide 14']",
         "rank": null,
         "top_result": "Lecture 9 - Intro to Database.pptx (slide 5)"
+      },
+      {
+        "id": 18,
+        "question": "What does a business process model show?",
+        "type": "definition",
+        "expected": "Chapter1_Introduction to System Analysis and Design (FINALIZED).pptx ['slide 20']",
+        "rank": 9,
+        "top_result": "Chapter1_Introduction to System Analysis and Design (FINALIZED).pptx (slide 33)"
+      },
+      {
+        "id": 28,
+        "question": "what is computer virus",
+        "type": "keywords",
+        "expected": "Chapter 8 Defending Against Virus Attacks (1).pdf ['page 22']",
+        "rank": null,
+        "top_result": "Chapter 8 Defending Against Virus Attacks (1).pdf (page 4)"
+      },
+      {
+        "id": 29,
+        "question": "List types of virus and example of computer virus",
+        "type": "keywords",
+        "expected": "Chapter 8 Defending Against Virus Attacks (1).pdf ['page 10, 11']",
+        "rank": null,
+        "top_result": "Chapter 8 Defending Against Virus Attacks (1).pdf (page 12)"
+      },
+      {
+        "id": 31,
+        "question": "(x-h)^2 + (y-k)^2 = r^2 ",
+        "type": "definition",
+        "expected": "Chp1 Circle.pdf ['page 2']",
+        "rank": null,
+        "top_result": "CSC128Topic2.pdf (page 22)"
+      },
+      {
+        "id": 32,
+        "question": "why using funtions is beneficals for programmers? ",
+        "type": "paraphrase",
+        "expected": "CSC128Topic5.pdf ['page 2']",
+        "rank": null,
+        "top_result": "CSC128Topic1.pdf (page 4)"
+      },
+      {
+        "id": 35,
+        "question": "How does creativity describe in enterpreneurship?",
+        "type": "definition",
+        "expected": "ENT300_CHAPTER 5.pdf ['page 3']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 4.pdf (page 7)"
+      },
+      {
+        "id": 36,
+        "question": "How many creative process in entrepreneurship?",
+        "type": "keywords",
+        "expected": "ENT300_CHAPTER 5.pdf ['page 4']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 1.pdf (page 35)"
+      },
+      {
+        "id": 37,
+        "question": "When creativity is being implemented, it's called as? ",
+        "type": "definition",
+        "expected": "ENT300_CHAPTER 5.pdf ['page 7']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 3.pdf (page 7)"
+      },
+      {
+        "id": 43,
+        "question": "What are assets in business?",
+        "type": "definition",
+        "expected": "Accounting Classification and Accounting Equation.pdf ['page 10']",
+        "rank": 6,
+        "top_result": "ACC117_Chapter 1_Introduction to Accounting.pdf (page 15)"
+      },
+      {
+        "id": 46,
+        "question": "Why is a supporting graphic crucial for an argumentative essay?",
+        "type": "paraphrase",
+        "expected": "W7_(W)_Introduction to Argumentative Essay.pptx ['slide 7']",
+        "rank": null,
+        "top_result": "W7_(W)_Introduction to Argumentative Essay.pptx (slide 2)"
+      },
+      {
+        "id": 47,
+        "question": "What distinguishes server-side scripting from client-side scripting?",
+        "type": "paraphrase",
+        "expected": "4.0 Chap 4 - Intro to Client-Side Scripting.pdf ['page 5']",
+        "rank": 6,
+        "top_result": "Lecture 1 - Internet WWW.pptx (slide 2)"
+      },
+      {
+        "id": 48,
+        "question": "Why javascript is taught in client-side scripting?",
+        "type": "paraphrase",
+        "expected": "4.0 Chap 4 - Intro to Client-Side Scripting.pdf ['page 6']",
+        "rank": null,
+        "top_result": "Lecture 1 - Internet WWW.pptx (slide 2)"
       }
     ]
   },
   "EmbeddingGemma 2": {
     "overall": {
-      "n": 15,
-      "MRR": 0.813,
-      "Recall@1": 0.733,
-      "Recall@3": 0.867,
-      "Recall@5": 0.933
+      "n": 50,
+      "MRR": 0.757,
+      "Recall@1": 0.66,
+      "Recall@3": 0.86,
+      "Recall@5": 0.88
     },
     "by_type": {
       "definition": {
-        "n": 7,
-        "MRR": 0.814,
-        "Recall@1": 0.714,
-        "Recall@3": 0.857,
-        "Recall@5": 1.0
+        "n": 22,
+        "MRR": 0.744,
+        "Recall@1": 0.636,
+        "Recall@3": 0.864,
+        "Recall@5": 0.909
       },
       "keywords": {
-        "n": 7,
-        "MRR": 0.786,
+        "n": 21,
+        "MRR": 0.785,
         "Recall@1": 0.714,
         "Recall@3": 0.857,
         "Recall@5": 0.857
       },
       "paraphrase": {
-        "n": 1,
-        "MRR": 1.0,
-        "Recall@1": 1.0,
-        "Recall@3": 1.0,
-        "Recall@5": 1.0
+        "n": 7,
+        "MRR": 0.714,
+        "Recall@1": 0.571,
+        "Recall@3": 0.857,
+        "Recall@5": 0.857
       }
     },
     "failures": [
       {
-        "id": 5,
-        "question": "What are three motivation theories discussed in entrepreneurial motivation?",
+        "id": 28,
+        "question": "what is computer virus",
         "type": "keywords",
-        "expected": "ENT300_CHAPTER 2.pdf ['page 12']",
+        "expected": "Chapter 8 Defending Against Virus Attacks (1).pdf ['page 22']",
+        "rank": 7,
+        "top_result": "Chapter 8 Defending Against Virus Attacks (1).pdf (page 6)"
+      },
+      {
+        "id": 29,
+        "question": "List types of virus and example of computer virus",
+        "type": "keywords",
+        "expected": "Chapter 8 Defending Against Virus Attacks (1).pdf ['page 10, 11']",
         "rank": null,
-        "top_result": "ENT300_CHAPTER 2.pdf (page 5)"
+        "top_result": "Chapter 8 Defending Against Virus Attacks (1).pdf (page 10)"
+      },
+      {
+        "id": 35,
+        "question": "How does creativity describe in enterpreneurship?",
+        "type": "definition",
+        "expected": "ENT300_CHAPTER 5.pdf ['page 3']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 3.pdf (page 2)"
+      },
+      {
+        "id": 36,
+        "question": "How many creative process in entrepreneurship?",
+        "type": "keywords",
+        "expected": "ENT300_CHAPTER 5.pdf ['page 4']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 3.pdf (page 4)"
+      },
+      {
+        "id": 37,
+        "question": "When creativity is being implemented, it's called as? ",
+        "type": "definition",
+        "expected": "ENT300_CHAPTER 5.pdf ['page 7']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 3.pdf (page 3)"
+      },
+      {
+        "id": 46,
+        "question": "Why is a supporting graphic crucial for an argumentative essay?",
+        "type": "paraphrase",
+        "expected": "W7_(W)_Introduction to Argumentative Essay.pptx ['slide 7']",
+        "rank": null,
+        "top_result": "W8_(W)_Writing Argumentative Essays_Sampel Outline.pptx (slide 13)"
       }
     ]
   }

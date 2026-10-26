@@ -1,0 +1,53 @@
+{
+  "size=150, overlap=30": {
+    "chunks": 1804,
+    "embeddings": {
+      "n": 15,
+      "MRR": 0.88,
+      "Recall@1": 0.8,
+      "Recall@3": 0.933,
+      "Recall@5": 1.0
+    },
+    "bm25": {
+      "n": 15,
+      "MRR": 0.553,
+      "Recall@1": 0.4,
+      "Recall@3": 0.733,
+      "Recall@5": 0.733
+    }
+  },
+  "size=250, overlap=50": {
+    "chunks": 1645,
+    "embeddings": {
+      "n": 15,
+      "MRR": 0.88,
+      "Recall@1": 0.8,
+      "Recall@3": 0.933,
+      "Recall@5": 1.0
+    },
+    "bm25": {
+      "n": 15,
+      "MRR": 0.553,
+      "Recall@1": 0.4,
+      "Recall@3": 0.733,
+      "Recall@5": 0.733
+    }
+  },
+  "size=400, overlap=80": {
+    "chunks": 1529,
+    "embeddings": {
+      "n": 15,
+      "MRR": 0.836,
+      "Recall@1": 0.733,
+      "Recall@3": 0.933,
+      "Recall@5": 1.0
+    },
+    "bm25": {
+      "n": 15,
+      "MRR": 0.553,
+      "Recall@1": 0.4,
+      "Recall@3": 0.733,
+      "Recall@5": 0.733
+    }
+  }
+}

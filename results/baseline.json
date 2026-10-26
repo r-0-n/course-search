@@ -1,0 +1,118 @@
+{
+  "BM25 (keyword)": {
+    "overall": {
+      "n": 15,
+      "MRR": 0.531,
+      "Recall@1": 0.4,
+      "Recall@3": 0.667,
+      "Recall@5": 0.667
+    },
+    "by_type": {
+      "definition": {
+        "n": 7,
+        "MRR": 0.446,
+        "Recall@1": 0.286,
+        "Recall@3": 0.571,
+        "Recall@5": 0.571
+      },
+      "keywords": {
+        "n": 7,
+        "MRR": 0.69,
+        "Recall@1": 0.571,
+        "Recall@3": 0.857,
+        "Recall@5": 0.857
+      },
+      "paraphrase": {
+        "n": 1,
+        "MRR": 0.0,
+        "Recall@1": 0.0,
+        "Recall@3": 0.0,
+        "Recall@5": 0.0
+      }
+    },
+    "failures": [
+      {
+        "id": 1,
+        "question": "What harm that trojan horse can cause",
+        "type": "definition",
+        "expected": "Chapter 9 Trojan Horses, Adware _ Spyware (1).pdf ['page 4']",
+        "rank": 8,
+        "top_result": "Chapter 9 Trojan Horses, Adware _ Spyware (1).pdf (page 6)"
+      },
+      {
+        "id": 2,
+        "question": "How Richard Cantillon describe an Entreprenuer",
+        "type": "definition",
+        "expected": "ENT300_CHAPTER 1.pdf ['page 4']",
+        "rank": null,
+        "top_result": "Chapter 4 Intrusion Detection System IDS (2).pdf (page 2)"
+      },
+      {
+        "id": 3,
+        "question": "Why is writing a comment is important in programming?",
+        "type": "definition",
+        "expected": "CSC128Topic1.pdf ['page 7']",
+        "rank": null,
+        "top_result": "4.0 Chap 4 - Intro to Client-Side Scripting.pdf (page 12)"
+      },
+      {
+        "id": 5,
+        "question": "What are three motivation theories discussed in entrepreneurial motivation?",
+        "type": "keywords",
+        "expected": "ENT300_CHAPTER 2.pdf ['page 12']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 2.docx (full document)"
+      },
+      {
+        "id": 11,
+        "question": "How do I clear my table in database?",
+        "type": "paraphrase",
+        "expected": "Lecture 9 - Intro to Database.pptx ['slide 14']",
+        "rank": null,
+        "top_result": "Lecture 9 - Intro to Database.pptx (slide 5)"
+      }
+    ]
+  },
+  "EmbeddingGemma 2": {
+    "overall": {
+      "n": 15,
+      "MRR": 0.813,
+      "Recall@1": 0.733,
+      "Recall@3": 0.867,
+      "Recall@5": 0.933
+    },
+    "by_type": {
+      "definition": {
+        "n": 7,
+        "MRR": 0.814,
+        "Recall@1": 0.714,
+        "Recall@3": 0.857,
+        "Recall@5": 1.0
+      },
+      "keywords": {
+        "n": 7,
+        "MRR": 0.786,
+        "Recall@1": 0.714,
+        "Recall@3": 0.857,
+        "Recall@5": 0.857
+      },
+      "paraphrase": {
+        "n": 1,
+        "MRR": 1.0,
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0
+      }
+    },
+    "failures": [
+      {
+        "id": 5,
+        "question": "What are three motivation theories discussed in entrepreneurial motivation?",
+        "type": "keywords",
+        "expected": "ENT300_CHAPTER 2.pdf ['page 12']",
+        "rank": null,
+        "top_result": "ENT300_CHAPTER 2.pdf (page 5)"
+      }
+    ]
+  }
+}

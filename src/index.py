@@ -6,7 +6,8 @@ from sentence_transformers import SentenceTransformer
 MODEL_NAME = "google/embeddinggemma-2"
 
 def build_index(chunks, out_dir="index"):
-    model = SentenceTransformer(MODEL_NAME)
+    model = SentenceTransformer(MODEL_NAME, device="cuda")
+    print("Model is on:", model.device)
     texts = [c["text"] for c in chunks]
     emb = model.encode(texts, prompt_name="Document",
                        batch_size=16, show_progress_bar=True,

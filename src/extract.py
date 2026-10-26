@@ -5,7 +5,7 @@ from pptx import Presentation
 
 def read_pdf(path):
     reader = PdfReader(path)
-    return [(f"page{i}", page.extract_text() or "")
+    return [(f"page {i}", page.extract_text() or "")
             for i, page in enumerate(reader.pages, start=1)]
 
 def read_docx(path):

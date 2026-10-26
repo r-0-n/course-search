@@ -13,7 +13,7 @@ def chunk_text(text, size=250, overlap=50):
         start += size - overlap
     return chunks
 
-def build_chunks(records, size=250, overlap=50, min_words=15):
+def build_chunks(records, size=250, overlap=50, min_words=5):
     chunks = []
     for r in records:
         text = clean(r["text"])

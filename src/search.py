@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 
 class Searcher:
     def __init__(self, index_dir="index", model_name="google/embeddinggemma-2"):
-        self.model = SentenceTransformer(model_name)
+        self.model = SentenceTransformer(model_name, device="cuda")
         self.index = faiss.read_index(f"{index_dir}/chunks.index")
         with open(f"{index_dir}/chunks.json", encoding="utf-8") as f:
             self.chunks = json.load(f)

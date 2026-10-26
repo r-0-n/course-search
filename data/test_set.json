@@ -188,24 +188,24 @@
     },
     {
      "id": 27,
-     "question": "When is Mirai attack happend?",
+     "question": "Definition of Security in policy",
      "type": "keywords",
-     "source": "Chapter 10 Cloud and IoT Security.pdf",
-     "locations": ["page 13"]
+     "source": "Chapter 12 Security Policy.pdf",
+     "locations": ["page 4"]
     },
     {
      "id": 28,
-     "question": "How can I make my IOT device more secure?",
+     "question": "what is computer virus",
      "type": "keywords",
-     "source": "Chapter 10 Cloud and IoT Security.pdf",
+     "source": "Chapter 8 Defending Against Virus Attacks (1).pdf",
      "locations": ["page 22"]
     },
     {
      "id": 29,
-     "question": "What steps can be taken to be ensure the safety network with IOT devices?",
-     "type": "paraphrase",
-     "source": "Chapter 10 Cloud and IoT Security.pdf",
-     "locations": ["page 23"]
+     "question": "List types of virus and example of computer virus",
+     "type": "keywords",
+     "source": "Chapter 8 Defending Against Virus Attacks (1).pdf",
+     "locations": ["page 10, 11"]
     },
     {
      "id": 30,

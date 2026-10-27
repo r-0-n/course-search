@@ -17,7 +17,7 @@ def index_exists():
 
 def rebuild_index():
     """Re-read every file in data/raw and rebuild the index. Returns (number of pages/slides, number of chunks)"""
-    records = extract_folder(RAW_DIR, supported=SUPPORTED)
+    records = extract_folder(RAW_DIR)
     chunks = build_chunks(records, size=CHUNK_SIZE, overlap=OVERLAP,
                           min_words=MIN_WORDS)
     if not chunks:

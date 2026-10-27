@@ -54,7 +54,7 @@ with st.sidebar:
     )
 
     if st.button("Save to library", disabled=not uploaded):
-        Path(RAW_DIR).mkdir(parent=True, exist_ok=True)
+        Path(RAW_DIR).mkdir(parents=True, exist_ok=True)
         saved, skipped = [],[]
         for f in uploaded:
             name = Path(f.name).name

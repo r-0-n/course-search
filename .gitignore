@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+data/raw/
+index/
+index_*/
+*.index
+.vscode/

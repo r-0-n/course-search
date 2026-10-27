@@ -1,7 +1,0 @@
-venv/
-data/raw/
-index/
-.env
-*.index
-index_*/
-__pycache__/

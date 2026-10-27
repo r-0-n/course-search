@@ -101,7 +101,7 @@ k = col2.number_input("Results", min_value=1, max_value=15, value=5)
 
 if query.strip():
     with st.spinner("Searching..."):
-        hits = searcher.search(query.strip(), l=int(k))
+        hits = searcher.search(query.strip(), k=int(k))
 
     st.subheader(f"Top {len(hits)} results")
     for rank, h in enumerate(hits, start=1):

@@ -10,7 +10,7 @@ Semantic search over lecture notes, slides, or past papers using EmbeddingGemma 
 ## Setup
 1. Clone the repo and open a terminal in the folder.
 2. Create and activate a virtual enviroment:
-    - Windows: 'python -m venv venv' then 'venv/Scripts/activate'
+    - Windows: 'python -m venv venv' then 'source venv/Scripts/activate'
     - Linux/Mac: 'python -m venv venv' then 'source venv/bin/activate
 3. Install dependencies: 'pip install -r requirements.txt
 4. Log in to the hugging face account: 'huggingface-cli login'

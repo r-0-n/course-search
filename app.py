@@ -1,6 +1,7 @@
 import gc
 from collections import Counter
 from pathlib import Path
+from src.rag import stream_answer, is_answerable, NOT_FOUND, TOP_K
 
 import streamlit as st
 
@@ -95,20 +96,34 @@ if searcher is None:
     st.stop
 
 col1, col2 = st.columns([5,1])
+use_rag = st.toggle("Generate an answer from the results (RAG)", value=False)
 query = col1.text_input("Your questions",
                         placeholder="e.g. how do I stop the same being stored twice?")
 k = col2.number_input("Results", min_value=1, max_value=15, value=5)
 
 if query.strip():
     with st.spinner("Searching..."):
-        hits = searcher.search(query.strip(), k=int(k))
+        hits = searcher.search(query.strip(), k=max(int(k), TOP_K))
 
-    st.subheader(f"Top {len(hits)} results")
-    for rank, h in enumerate(hits, start=1):
+    if use_rag:
+        st.subheader("Answer")
+        if not is_answerable(hits):
+            st.warning(NOT_FOUND)
+        else:
+            try:
+                st.write_stream(stream_answer(query.strip(), hits[:TOP_K]))
+                st.caption(f"Based on results 1 to {TOP_K} below. "
+                           "Check the sources before relying on this answer.")
+            except Exception as e:
+                st.error("Could not reach the language model. "
+                         f"Is Ollama running? Details: {e}")
+
+    st.subheader(f"Top {min(int(k), len(hits))} results")
+    for rank, h in enumerate(hits[:int(k)], start=1):
         with st.container(border=True):
             st.markdown(f"**{rank}. {h['source']}**")
-            st.caption(f"{h['location']} . similarity score {h['score']:.3f}")
-            snippet = h ["text"][:300] + ("..." if len(h["text"]) > 300 else "")
+            st.caption(f"{h['location']} · similarity score {h['score']:.3f}")
+            snippet = h["text"][:300] + ("..." if len(h["text"]) > 300 else "")
             st.write(snippet)
             if len(h["text"]) > 300:
                 with st.expander("Show full passage"):

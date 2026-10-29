@@ -2,7 +2,7 @@ import re
 import time
 import ollama
 
-GEN_MODEL = "YOUR_MODEL_TAG"      # the tag shown by `ollama list`
+GEN_MODEL = "gemma4:e4b"      # the tag shown by `ollama list`
 TOP_K = 4                         # chunks sent to the model
 MIN_SCORE = 0.30                  # tune this from your own data (see Step 4)
 MAX_CHARS = 1800                  # cap per chunk to keep the prompt short

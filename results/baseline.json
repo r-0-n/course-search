@@ -2,9 +2,9 @@
   "BM25 (keyword)": {
     "overall": {
       "n": 50,
-      "MRR": 0.531,
+      "MRR": 0.53,
       "Recall@1": 0.38,
-      "Recall@3": 0.68,
+      "Recall@3": 0.66,
       "Recall@5": 0.68
     },
     "by_type": {
@@ -17,9 +17,9 @@
       },
       "keywords": {
         "n": 21,
-        "MRR": 0.675,
+        "MRR": 0.671,
         "Recall@1": 0.524,
-        "Recall@3": 0.857,
+        "Recall@3": 0.81,
         "Recall@5": 0.857
       },
       "paraphrase": {
@@ -164,16 +164,16 @@
   "EmbeddingGemma 2": {
     "overall": {
       "n": 50,
-      "MRR": 0.757,
-      "Recall@1": 0.66,
+      "MRR": 0.767,
+      "Recall@1": 0.68,
       "Recall@3": 0.86,
       "Recall@5": 0.88
     },
     "by_type": {
       "definition": {
         "n": 22,
-        "MRR": 0.744,
-        "Recall@1": 0.636,
+        "MRR": 0.767,
+        "Recall@1": 0.682,
         "Recall@3": 0.864,
         "Recall@5": 0.909
       },

@@ -1,0 +1,12 @@
+# Setup Notes
+
+- Data recorded:
+- OS: Windows (11)
+- Python version: 3.14.8
+- GPU: Nvdia  4050 laptop GPU
+- Embedding Model: google/embeddinggemma-2
+- min_words: 5
+- Number of documents: 69
+- Vector store: FAISS (IndexFlatIp, normalized vectors)
+- Baseline: BM25 (rank-bm25)
+- Test set size 55 questions

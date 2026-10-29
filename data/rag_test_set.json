@@ -1,0 +1,243 @@
+[ 
+ {
+    "id": "R1",
+    "question": "What is the purpose of firewall?",
+    "answerable": true,
+    "source": "Chapter 3 Fundamental of Firewall (1).pdf",
+    "locations": ["page 4"],
+    "reference": "A firewall is a network security device that monitors incoming and outgoing network traffic and permits or block data based on set of security rules"
+ },
+ {
+    "id": "R2",
+    "question": "Why comment is important in programming?",
+    "answerable": true,
+    "source": "CSC128Topic1.pdf",
+    "locations": ["page 7"],
+    "reference": "convenience of anyone reading the program"
+ },
+ {
+    "id": "R3",
+    "question": "What's the difference between computer crime and cybercrime?",
+    "answerable": true,
+    "source": "Chapter 11 Legal _ Ethical Aspects.pdf",
+    "locations": ["page 4"],
+    "reference": "computer crime may or not involve networks"
+ },
+ {
+    "id": "R4",
+    "question": "List 5 general categories of system requirements",
+    "answerable": true,
+    "source": "Chapter3_Requirements Modeling.pptx",
+    "locations": ["slide 31"],
+    "reference": "system requirement falls into five categories: outputs,inputs,process,performance and controls"
+ },
+ {
+    "id": "R5",
+    "question": "When is the nasi lemak created?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R6",
+    "question": "What is the early sign of cyberpsychosis?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R7",
+    "question": "What is primary key?",
+    "answerable": true,
+    "source": "Chapter6_Data Design.pptx",
+    "locations": ["slide 18"],
+    "reference": "fields that uniquely and minimaly identifies a particular member of an entity"
+ },
+ {
+    "id": "R8",
+    "question": "what is the standard equation of circle?",
+    "answerable": true,
+    "source": "Chp1 Circle.pdf",
+    "locations": ["page 2"],
+    "reference": "Where (h, k) = centre and r = radius"
+ },
+ {
+    "id": "R9",
+    "question": "Can shrimp fried this rice?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R10",
+    "question": "What is 5 stage of grief?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R11",
+    "question": "Why fuctions is important for programmer?",
+    "answerable": true,
+    "source": "CSC128Topic5.pdf",
+    "locations": ["page 2"],
+    "reference": ""
+ },
+ {
+    "id": "R12",
+    "question": "Define creativity in entreprenuership",
+    "answerable": true,
+    "source": "ENT300_CHAPTER 5.pdf",
+    "locations": ["page 3"],
+    "reference": "come from word 'create'"
+ },
+ {
+    "id": "R13",
+    "question": "How many creative process in entreprenuership",
+    "answerable": true,
+    "source": "ENT300_CHAPTER 3.pdf",
+    "locations": ["page 4"],
+    "reference": "CREATIVE PROCESS"
+ },
+ {
+    "id": "R14",
+    "question": "Difference between current assets and fixed assets",
+    "answerable": true,
+    "source": "Accounting Classification and Accounting Equation.pdf",
+    "locations": ["page 12"],
+    "reference": "long or short term in nature"
+ },
+ {
+    "id": "R15",
+    "question": "How many types of revenues in business",
+    "answerable": true,
+    "source": "Accounting Classification and Accounting Equation.pdf",
+    "locations": ["page 21"],
+    "reference": "Revenues"
+ },
+ {
+    "id": "R16",
+    "question": "What is the most fastest production car which is not an electric car.",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R17",
+    "question": "What is composition of water?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R18",
+    "question": "Why client side scripting is important?",
+    "answerable": true,
+    "source": "4.0 Chap 4 - Intro to Client-Side Scripting.pdf",
+    "locations": ["page 6"],
+    "reference": "why do you need to learn JavaScripts?"
+ },
+ {
+    "id": "R19",
+    "question": "What is the current price for teh tarik and roti telur 2pcs",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R20",
+    "question": "What does an entity mean in data design",
+    "answerable": true,
+    "source": "Chapter6_Data Design.pptx",
+    "locations": ["slide 17"],
+    "reference": "where data is collected and maintained"
+ },
+ {
+    "id": "R21",
+    "question": "What does security pollicy mean?",
+    "answerable": true,
+    "source": "Chapter 12 Security Policy.pdf",
+    "locations": ["page 4"],
+    "reference": "plans to protect the company physical and information technology (IT) assets"
+ },
+ {
+    "id": "R22",
+    "question": "According to Mclelland and McBer(1985), initiative is ?",
+    "answerable": true,
+    "source": "ENT300_CHAPTER 2.pdf",
+    "locations": ["page 12"],
+    "reference": "Always ahead of others and able to become leader in the field of business"
+ },
+ {
+    "id": "R23",
+    "question": "How to write a multi line comment in javascripts?",
+    "answerable": true,
+    "source": "Lecture 5 - Javascript.pptx",
+    "locations": ["sldie 9"],
+    "reference": "Comment"
+ },
+ {
+    "id": "R24",
+    "question": "Describe UML",
+    "answerable": true,
+    "source": "Chapter3_Requirements Modeling.pptx",
+    "locations": ["slide 30"],
+    "reference": "Uses object-oriented design concepts"
+ },
+ {
+    "id": "R25",
+    "question": "what is responsive web design?",
+    "answerable": true,
+    "source": "Lecture 4 - CSS-Responsive (1).pptx",
+    "locations": ["slide 3"],
+    "reference": "To make content look good on screen"
+ },
+ {
+    "id": "R26",
+    "question": "List some of computer virus and its example",
+    "answerable": true,
+    "source": "Chapter 8 Defending Against Virus Attacks (1).pdf",
+    "locations": ["page 10, page 11"],
+    "reference": "Virus types, example"
+ },
+ {
+    "id": "R27",
+    "question": "Can love bloom even on the battlefield?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R28",
+    "question": "Does every device have same viewport?",
+    "answerable": true,
+    "source": "Lecture 4 - CSS-Responsive (1).pptx",
+    "locations": ["slide 4"],
+    "reference": "The viewport"
+ },
+ {
+    "id": "R29",
+    "question": "Hypothetically, you given 1 missile, what place/countries you want to drop it?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ },
+ {
+    "id": "R30",
+    "question": "How does a missile know where it is and where it isn'n ?",
+    "answerable": false,
+    "source": "",
+    "locations": [""],
+    "reference": ""
+ }
+ 
+]

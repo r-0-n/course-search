@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#406bc7"
+backgroundColor = "#ffffff"
+secondBackgroundColor = "#fa1010"
+textColor = "#3d3c3c"
+font = " consolas "
+
+[browser]
+gatherUsageStats = false

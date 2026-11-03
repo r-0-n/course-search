@@ -9,4 +9,4 @@
 - Number of documents: 69
 - Vector store: FAISS (IndexFlatIp, normalized vectors)
 - Baseline: BM25 (rank-bm25)
-- Test set size 55 questions
+- Test set size 50 questions ( semantic search) 30 test questions for RAG (with citation )
